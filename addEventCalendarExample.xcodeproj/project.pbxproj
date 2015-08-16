@@ -13,6 +13,7 @@
 		79EB22241B81155500DA5966 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79EB22231B81155500DA5966 /* Images.xcassets */; };
 		79EB22271B81155500DA5966 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79EB22251B81155500DA5966 /* LaunchScreen.xib */; };
 		79EB22331B81155500DA5966 /* addEventCalendarExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EB22321B81155500DA5966 /* addEventCalendarExampleTests.swift */; };
+		79EB223F1B81271E00DA5966 /* ViewControllerV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EB223E1B81271E00DA5966 /* ViewControllerV2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		79EB222C1B81155500DA5966 /* addEventCalendarExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = addEventCalendarExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79EB22311B81155500DA5966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79EB22321B81155500DA5966 /* addEventCalendarExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addEventCalendarExampleTests.swift; sourceTree = "<group>"; };
+		79EB223E1B81271E00DA5966 /* ViewControllerV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerV2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				79EB221C1B81155500DA5966 /* AppDelegate.swift */,
+				79EB223E1B81271E00DA5966 /* ViewControllerV2.swift */,
 				79EB221E1B81155500DA5966 /* ViewController.swift */,
 				79EB22201B81155500DA5966 /* Main.storyboard */,
 				79EB22231B81155500DA5966 /* Images.xcassets */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79EB223F1B81271E00DA5966 /* ViewControllerV2.swift in Sources */,
 				79EB221F1B81155500DA5966 /* ViewController.swift in Sources */,
 				79EB221D1B81155500DA5966 /* AppDelegate.swift in Sources */,
 			);
@@ -343,6 +347,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = addEventCalendarExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = addEventCalendarExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
