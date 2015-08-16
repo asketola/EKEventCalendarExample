@@ -95,7 +95,11 @@ func insertEvent(store: EKEventStore) {
                 }
             } else {
             println("We created an event through the if calendar.title == Cooking Club")
-            self.performSegueWithIdentifier("SHOW_DONE", sender: self)
+//            self.performSegueWithIdentifier("SHOW_DONE", sender: self)
+            let successAlert = UIAlertController(title: "Success", message: "Your event has been saved", preferredStyle: .Alert)
+            let OKAction = UIAlertAction(title: "OK", style: .Default, handler: nil)
+            successAlert.addAction(OKAction)
+            self.presentViewController(successAlert, animated: true, completion: nil)
             }
         } else {
             // create the new calendar
@@ -145,7 +149,11 @@ func insertEvent(store: EKEventStore) {
                     }
                 } else {
                     println("We saved the event")
-                    self.performSegueWithIdentifier("SHOW_DONE", sender: self)
+//                    self.performSegueWithIdentifier("SHOW_DONE", sender: self)
+                    let successAlert = UIAlertController(title: "Success", message: "Your event has been saved", preferredStyle: .Alert)
+                    let OKAction = UIAlertAction(title: "OK", style: .Default, handler: nil)
+                    successAlert.addAction(OKAction)
+                    self.presentViewController(successAlert, animated: true, completion: nil)
                 }
             }
         }
