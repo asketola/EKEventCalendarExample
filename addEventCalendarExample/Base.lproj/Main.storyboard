@@ -25,11 +25,22 @@
                                     <action selector="setReminderButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w9w-ua-dbJ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nbZ-59-wT9">
+                                <rect key="frame" x="267" y="323" width="66" height="30"/>
+                                <state key="normal" title="Set alarm">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="setReminderForAlarm:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9C7-ii-m3d"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="lcC-Lc-ISo" secondAttribute="centerX" id="1kw-9u-ifj"/>
+                            <constraint firstItem="nbZ-59-wT9" firstAttribute="top" secondItem="lcC-Lc-ISo" secondAttribute="bottom" constant="8" id="Ecl-at-dta"/>
                             <constraint firstAttribute="centerY" secondItem="lcC-Lc-ISo" secondAttribute="centerY" id="bi3-Vr-ZQw"/>
+                            <constraint firstAttribute="centerX" secondItem="nbZ-59-wT9" secondAttribute="centerX" id="xU5-t2-ENW"/>
                         </constraints>
                     </view>
                     <connections>
